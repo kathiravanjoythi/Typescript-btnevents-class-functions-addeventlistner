@@ -8,7 +8,7 @@ import './style.css';
 
 
 
-class AdminTS {
+class TsClass {
   constructor() {
     let btn = document.getElementById("coolbutton");
     btn.addEventListener("mouseenter", (e: Event) => {
@@ -26,7 +26,7 @@ class AdminTS {
 }
 
 // start the app
-new AdminTS();
+new TsClass();
 
 function mysampleFunction() {
  console.log("mouse leave")
